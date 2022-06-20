@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.div1 {
+    text-align: left;
+}
+
+.img1 {
+    align-items: right;
+    height: 174px;
+    width: 290px;
+}
