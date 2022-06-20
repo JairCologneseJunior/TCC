@@ -1,15 +1,15 @@
-function seta(){
-    var traco = document.getElementById("traco");
-    var maisTexto = document.getElementById("abaixo");
-    var btnSeta = document.getElementById("btnSeta");
+function Abaixo (){
+    var oi = document.getElementById("oi");
+    var abaixo = document.getElementById("abaixo");
+    var btnAbaixo = document.getElementById("btnAbaixo");
 
-    if (traco.style.display === "none") {
-        traco.style.display = "inline";
-        maisTexto.style.display = "none";
-        btnSeta.innerHTML = "Leia Mais";
-    }else {
-        traco.style.display = "none";
-        maisTexto.style.display = "inline";
-        btnSeta.innerHTML = "Leia Menos";
+    if(oi.style.display === "none"){
+        oi.style.display = "inline";
+        abaixo.style.display = "none";
+        btnAbaixo.innerHTML = "Leia Mais";
+    } else {
+        oi.style.display = "none";
+        abaixo.style.display = "inline";
+        btnAbaixo.innerHTML = "Leia Menos";
     }
 }
