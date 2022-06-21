@@ -4,12 +4,19 @@
 
 .container2 {
     padding-top: 1%;
-    margin: 4%;
+    margin-left: 5.27em;
+    margin-right: 5.27em;
     border: 1px solid;
-    background-color: #60CE00;
-    padding-left: 2%;
+    background-color: #499902df;
+    padding-left: 1%;
     padding-bottom: 1%;
     font-size: large;
+    padding-right: 1%;
+    font-size: xx-large;
+}
+
+.p5 {
+    font-size: x-large;
 }
 
 h3 {
@@ -24,7 +31,9 @@ p {
 .btn {
     text-shadow: 2px 2px 2px rgb(1, 158, 11);
     background-color: rgb(97, 97, 97);
-    font-size: medium;
+    font-size: larger;
+    border-radius: 1em;
+    cursor: pointer;
 }
 
 .container3{
@@ -32,15 +41,26 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: 0px;
     margin: 4%;
-    color: antiquewhite;
+    color: rgb(38, 38, 38);
 }
 
-.money {
-
+.a{
+    text-decoration: underline;
+    background-color: rgba(167, 167, 167, 0.444);
+    color: #031d00;
 }
 
 .btn2 {
-    font-size: large;
+    background-color: #031d00;
+    font-size: x-large;
+    border-radius: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    transition: background  .5s;
+    margin-top: 1em
 }
 
 .final {
@@ -58,7 +78,9 @@ footer{
 }
 
 .p1 {
-    padding-top: 4em;
+    padding-left: 20px;
+    padding-top: 1.35em;
+    font-size: x-large;
 }
 
 .p4 {
@@ -87,6 +109,10 @@ h4 {
     color:antiquewhite;;
 }
 
+.a2:hover {
+    color: #031d00;
+}
+
 footer {
     margin-top: 5%;
     color: aliceblue;
@@ -107,107 +133,149 @@ footer {
 }
 
 body {
+    background-image: url("./Imagens/o.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-family: 'Didact Gothic', sans-serif;
-    background: #333;
     color: #fff;
     line-height: 1.6;
 }
 
-.slider {
-    position: relative;
-    overflow: hidden;
-    height: 400vh;
-    width: 100%;
-}
-
-.slide {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+.carousel-inner img{
     height: 500px;
-    opacity: 0;
-    transition:  opacity 0.4s ease-in-out;
-    margin-top: 5%;
-}
-
-.slide.atual {
-    opacity: 1;
-}
-
-.buttons button#next {
-    position: absolute;
-    top: 43%;
-    right: 15px;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-  
-.buttons button#prev {
-    position: absolute;
-    top: 43%;
-    left: 15px;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-.buttons button {
-    font-size: 2rem;
-    border: 1px solid #fff;
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    padding: 13px 15px;
-    border-radius: 50%;
-    outline: none;
-}
-
-.buttons button:hover {
-    background-color: rgb(255, 1, 1);
-    color: #333;
-}
-
-/* Backgorund Images */
- 
-.slide:first-child {
-    background: url('https://blog.brkambiental.com.br/wp-content/uploads/2020/02/preserva%C3%A7%C3%A3o-da-amaz%C3%B4nia.jpg') no-repeat
-      center/cover;
-}
-.slide:nth-child(2) {
-    background: url('https://projetocolabora.com.br/wp-content/uploads/2021/01/20210119desmataagpara1.jpg') no-repeat
-      center/cover;
-}
-.slide:nth-child(3) {
-    background: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/16988_106E67F2F59F9B5D.jpg?w=1200&h=900&crop=1') no-repeat
-      center/cover;
-}
-.slide:nth-child(4) {
-    background: url('https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2019/08/amazc3b4nia-em-chamas.jpeg') no-repeat
-      center/cover;
 }
 
 .div1{
-    padding-bottom: 70px;
+    background-color: rgba(167, 167, 167, 0.444);
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 200px;
-    border: 1px solid #fff;
+    margin-bottom: 50px;
+    border: 1px solid black;
 }
 
 .div2{
+    background-color: rgba(167, 167, 167, 0.444);
+    padding-left: 10px;
     border: 2px solid #60CE00;
     margin-bottom: 50px;
+    margin-left: 3.3em;
+    margin-right: 3.3em;
 }
 
 .div3{
-    border: 1px solid #fff;
+    background-color: rgba(167, 167, 167, 0.444);
+    border: 1px solid black;
+    margin-left: 3.3em;
+    margin-right: 3.3em;
 }
 .img1 {
     height: 300px;
     padding-right: 1em;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.img3 {
+    width: 400px;
+}
+
+.img6 {
+    
 }
 
 a {
-    text-decoration: none;
+    
     color: #fff;
+}
+
+.container {
+    margin-top: 5em;
+}
+
+.logo {
+    text-align: end;
+    background-color: #0b5601;
+    color: #fff;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    font-size: xx-large;
+}
+
+.a1 {
+    color: #fff;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.a3 {
+    color: #fff;
+    padding-left: 4.5em;
+    padding-right: 4.4em;
+}
+
+.a3:hover {
+    color: #031d00;
+}
+
+.a33 {
+    color: #fff;
+    padding-left: 3.4em;
+    padding-right: 4.5em;
+}
+
+.a33:hover {
+    color: #031d00;
+}
+
+.KAJ {
+    width: 140px;
+    height: 100px;
+}
+
+.a4 {
+    color: #333;
+}
+
+.h0 {
+    padding-bottom: 1em;
+    color: antiquewhite;
+}
+
+.money{
+    color: antiquewhite;
+}
+
+.h2 {
+    padding-bottom: 1em;
+}
+
+.h3{
+    text-decoration: none;
+}
+
+.h31{
+    padding-top: 1em;
+}
+
+.img2 {
+    padding-top: 50px;
+    padding-right: 10px;
+    height: 297px; 
+    width: 410px;
+}
+
+.img4 {
+    height: 30px;
+    text-align: end;
+    width: 30px;
+}
+
+.img8 {
+    cursor: pointer;
+}
+
+.p2 {
+    font-size: x-large;
+    padding-right: 10px;
 }
